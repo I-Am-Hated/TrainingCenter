@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingCenter.Api", "TrainingCenter.Api.csproj", "{CAC754C3-A21A-42C8-A945-0186B2F1C72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingCenter.Tests", "..\TrainingCenter.Tests\TrainingCenter.Tests.csproj", "{5801E34D-AF3E-49FF-8BFA-CCB360CC21FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC754C3-A21A-42C8-A945-0186B2F1C72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC754C3-A21A-42C8-A945-0186B2F1C72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC754C3-A21A-42C8-A945-0186B2F1C72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC754C3-A21A-42C8-A945-0186B2F1C72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5801E34D-AF3E-49FF-8BFA-CCB360CC21FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5801E34D-AF3E-49FF-8BFA-CCB360CC21FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5801E34D-AF3E-49FF-8BFA-CCB360CC21FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5801E34D-AF3E-49FF-8BFA-CCB360CC21FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAF8355C-66C2-4DFC-B3E5-8125D29915FB}
+	EndGlobalSection
+EndGlobal
