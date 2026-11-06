@@ -12,6 +12,7 @@ namespace TrainingCenter.Api.Services
         {
             //Имитация недоступности корпоративного почтового сервера
             _logger.LogWarning("Ошибка отправки почты. Коропоративный почтовый сервер недоступен");
+
             throw new InvalidOperationException("Коропоративный почтовый сервер недоступен");
         }
     }

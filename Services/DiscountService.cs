@@ -38,7 +38,7 @@ namespace TrainingCenter.Api.Services
                     discount = Math.Max(discount, GraduateDiscount);
                 }
 
-                // Скидки НЕ суммируются — берём максимум.
+                //Скидки не суммируются. Для каждого курса должна выбраться только одна — максимальная из доступных скидок.
                 items.Add(new CartItemResult
                 {
                     CourseId = course.Id,

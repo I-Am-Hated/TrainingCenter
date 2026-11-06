@@ -10,7 +10,7 @@ namespace TrainingCenter.Api.Services
 
         public Task SendAsync(string to, string subject, string body, CancellationToken ct = default)
         {
-            // Заглушка, здесь мог бы быть реальный вызов SMTP.
+            //Заглушка, здесь мог бы быть реальный вызов SMTP.
             return Task.CompletedTask;
         }
     }
